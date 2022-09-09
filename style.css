@@ -1,0 +1,35 @@
+body{
+  background-color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+}
+
+#container{
+  width: 200px;
+  height: 200px;
+  background-color: #CCC;
+  gap: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+  padding-right: 0px;
+}
+#container div{
+  height: 65px;
+  width: 65px;
+  background-color: #464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+}
+#bt{
+  width: 40px;
+  height: 40px;
+  background-color: magenta;
+  margin: 4px;
+}
